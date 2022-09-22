@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body {
+    background-color: #5B2386;
+    color: white;
+}
+
+.wrapper {
+    width: auto;
+    margin: 120px 0 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header { 
+    height: 225px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 66px;
+}
+
+
+.img-tit {
+    width: 564px;
+    height: 112px;
+}
+
+.img-back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+title {
+    display: flex;
+    flex-direction: column;
+}
+
+.tit {
+    text-align: center;
+    font-family: 'OTEnjoystoriesBA';
+    color: #F5DF4D;
+    font-size: 36px;
+    margin-bottom: 78px;
+}
+
+.tit-main {
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.7em;
+    position: relative;
+}
+
+.txt {
+    font-family: 'GmarketSansBold';
+    font-size: 30px;
+    
+}
+
+.txt::after {
+    content: " ";
+    width: 600px;
+    height: 50px;
+    background-image: url(/img/quotes.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.tit-input {
+    margin: 102px 0 115px;
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+    font-size: 24px;
+}
+
+.tit-input input {
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin: 0 15px;
+    border: none;
+    width: 200px;
+    font-size: 24px;
+    margin-bottom: 27px;
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+    color: #BABCBE;
+
+}
+
+.start-btn {
+    font-family: 'GmarketSansBold';
+    background-color: #FCEE21;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.start-btn::after {
+    content: ' ';
+    background-image: url(/img/click.png);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 72px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -7px;
+}
+
+.go {
+    text-align: center;
+}
+.go-txt{
+    margin-bottom: 127px;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.go-txt p {
+    margin-top: 17px;
+}
+
+.go-txt p span {
+    font-family: 'GmarketSansBold';
+    font-size: 72px;
+    padding: 0 12px;
+    vertical-align:middle;
+}
+
+
+.go-click {
+    font-family: 'GmarketSansBold';
+    background-color: #FCEE21;
+    width: 15em;
+    
+}
+
+.share {
+    font-family: 'GmarketSansBold';
+    background-color: #ffffff;
+}
+
+button {
+    border-radius: 56px;
+    padding: 21px 49px;
+    font-size: 24px;
+    height: 66px;
+    line-height: 1;
+    margin-right: 18px;
+    border: none;
+    color: #5B2386;
+}
+
+.Weniv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.Weniv small {
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    line-height: 1.5;
+}
