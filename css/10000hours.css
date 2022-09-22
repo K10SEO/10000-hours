@@ -94,7 +94,7 @@ title {
     content: " ";
     width: 600px;
     height: 50px;
-    background-image: url(/img/quotes.png);
+    background-image: url(../img/quotes.png);
     background-repeat: no-repeat;
     background-size: 600px;
     position: absolute;
@@ -133,7 +133,7 @@ title {
 
 .start-btn::after {
     content: ' ';
-    background-image: url(/img/click.png);
+    background-image: url(../img/click.png);
     background-repeat: no-repeat;
     width: 64px;
     height: 72px;
